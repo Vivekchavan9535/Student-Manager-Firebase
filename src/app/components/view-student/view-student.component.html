@@ -1,0 +1,73 @@
+<div  class="container">
+
+  <div class="row">
+    <div class="col-md-8 mt-5">
+      <div class="card shadow">
+        <div class="card-body">
+          <h3 class="text-center">Student Profile</h3>
+          <div class="row">
+
+            <div class="col-md-3 overflow-hidden border d-flex justify-content-center align-items-center">
+              <img height="200" class="cover-full"
+                src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg">
+            </div>
+
+            <div class="col"  *ngIf="student">
+              <ul class="list-group">
+                <li class="list-group-item"><span class="fw-bold">Name</span> : {{student.firstName}}</li>
+              </ul>
+              <ul class="list-group ">
+                <li class="list-group-item"><span class="fw-bold">Degree</span> : {{student.course}}</li>
+              </ul>
+              <ul class="list-group ">
+                <li class="list-group-item"><span class="fw-bold">Email</span> :{{student.email}}</li>
+              </ul>
+              <ul class="list-group ">
+                <li class="list-group-item"><span class="fw-bold">Mobile</span> : {{student.mobile}}</li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Clg Details -->
+
+
+    <div class="row mt-5">
+      <div class="col-md-8 ">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3 class="text-center">College Details</h3>
+
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-group ">
+                  <li class="list-group-item">Name : vivek Chavan</li>
+                </ul>
+                <ul class="list-group ">
+                  <li class="list-group-item">College : VivekAnanda Institute</li>
+                </ul>
+                <ul class="list-group ">
+                  <li class="list-group-item">Course : Bachelors in Computer Apllication</li>
+                </ul>
+                <ul class="list-group ">
+                  <li class="list-group-item">Email : Vivekchavan942gmail.com</li>
+                </ul>
+                <ul class="list-group ">
+                  <li class="list-group-item">Mobile : 9535840603</li>
+                </ul>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+  </div>
+</div>
